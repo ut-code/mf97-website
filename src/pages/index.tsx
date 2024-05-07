@@ -98,13 +98,13 @@ const activities = [
       src: "https://source.unsplash.com/kUqqaRjJuw0/800x300",
       alt: "タイピングゲームをするイメージ",
     },
-    description: (
+    description:
+      // prettier-ignore
       <p>
         タイピングゲームで、一位を目指そう！
         他の人と競い合いながら、タイピングの練習をすることができます。
         他のタイピングゲームにはない独自の機能もあるかも……？
-      </p>
-    ),
+      </p>,
     linkTo: "https://typing.utcode.net/",
     targetAge: "どなたでも",
     isNew: false,
@@ -131,6 +131,7 @@ const activities = [
   },
 ];
 
+// prettier-ignore
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -163,9 +164,7 @@ export default function Home(): JSX.Element {
                 </div>
                 <div className="card__body">
                   <h3>{activity.title}</h3>
-                  {activity.isNew && (
-                    <h3 className="badge badge--success">NEW</h3>
-                  )}
+                  {activity.isNew && <h3 className="badge badge--success">NEW</h3>}
                   <h3 className="badge badge--primary">{activity.targetAge}</h3>
                   <h3 className="badge badge--info">{activity.requiredTime}</h3>
                   {activity.description}
