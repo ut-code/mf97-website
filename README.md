@@ -1,6 +1,6 @@
 # May Fest / Komaba Fest
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This website is built using [Docusaurus 3](https://docusaurus.io/), a modern static website generator.
 
 ### Dependencies
 
@@ -32,6 +32,7 @@ npm run build
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
 ### Deployment
+
 // I' don't know about deployment so I'll leave this for now
 Using SSH:
 

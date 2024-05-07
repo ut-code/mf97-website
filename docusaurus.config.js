@@ -5,11 +5,11 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 // const { themes } = require("prism-react-renderer");
-import { themes } from 'prism-react-renderer';
+import { themes } from "prism-react-renderer";
 const lightCodeTheme = themes.github;
 const darkCodeTheme = themes.dracula;
-import remarkMath from 'remark-math';
-import rehypeKatex from 'rehype-katex';
+import remarkMath from "remark-math";
+import rehypeKatex from "rehype-katex";
 
 /** @type {import("@docusaurus/types").Config} */
 const config = {
@@ -67,11 +67,11 @@ const config = {
   ],
   stylesheets: [
     {
-      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
-      type: 'text/css',
+      href: "https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css",
+      type: "text/css",
       integrity:
-        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
-      crossorigin: 'anonymous',
+        "sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM",
+      crossorigin: "anonymous",
     },
   ],
   themeConfig:

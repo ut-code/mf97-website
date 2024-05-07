@@ -164,7 +164,9 @@ export default function Home(): JSX.Element {
                 </div>
                 <div className="card__body">
                   <h3>{activity.title}</h3>
-                  {activity.isNew && <h3 className="badge badge--success">NEW</h3>}
+                  {activity.isNew && (
+                    <h3 className="badge badge--success">NEW</h3>
+                  )}
                   <h3 className="badge badge--primary">{activity.targetAge}</h3>
                   <h3 className="badge badge--info">{activity.requiredTime}</h3>
                   {activity.description}
