@@ -4,6 +4,57 @@ import Heading from "@theme/Heading";
 
 const activities = [
   {
+    // QR CODE
+    title: "タイトル",
+    coverImage: {
+      src: "https://source.unsplash.com/iar-afB0QQw/800x300",
+      alt: "イメージの代替テキスト",
+    },
+    description:
+      // prettier-ignore
+      <p>
+        説明本文 (3行程度)
+      </p>,
+    linkTo: "http://localhost:3000",
+    isNew: true,
+    targetAge: "一部は高校生以上におすすめ",
+    requiredTime: "15分～",
+  },
+  {
+    // ART
+    title: "タイトル",
+    coverImage: {
+      src: "http://localhost:3000/icon",
+      alt: "イメージの代替テキスト",
+    },
+    description:
+      // prettier-ignore
+      <p>
+        説明本文 (3行程度)
+      </p>,
+    linkTo: "http://localhost:3000",
+    isNew: true,
+    targetAge: "一部は高校生以上におすすめ",
+    requiredTime: "15分～",
+  },
+  {
+    // u/place
+    title: "タイトル",
+    coverImage: {
+      src: "http://localhost:3000/icon",
+      alt: "イメージの代替テキスト",
+    },
+    description:
+      // prettier-ignore
+      <p>
+        説明本文 (3行程度)
+      </p>,
+    linkTo: "http://localhost:3000",
+    isNew: true,
+    targetAge: "一部は高校生以上におすすめ",
+    requiredTime: "15分～",
+  },
+  {
     title: "はじめてのプログラミング教室",
     coverImage: {
       src: "https://source.unsplash.com/hLvQ4-QEBAE/800x300",
@@ -57,24 +108,6 @@ const activities = [
     requiredTime: "1分～",
   },
   {
-    title: "ハッカーになろう",
-    coverImage: {
-      src: "https://source.unsplash.com/FnA5pAzqhMM/800x300",
-      alt: "セキュリティのイメージ",
-    },
-    description:
-      // prettier-ignore
-      <p>
-        悪用厳禁！Web サービスを攻撃して、隠された秘密のデータを盗み出そう！
-        実際に使われたことのあるサイバー攻撃手法を習得して、あなたもついにハッカーデビュー！？
-        インターネット上の詐欺から身を守る方法も学べます。
-      </p>,
-    linkTo: "/security",
-    targetAge: "初心者におすすめ",
-    isNew: true,
-    requiredTime: "15分～",
-  },
-  {
     title: "CreateCPU",
     coverImage: {
       src: "https://source.unsplash.com/_LIZ36OHGKk/800x300",
@@ -92,24 +125,6 @@ const activities = [
     targetAge: "高校生以上におすすめ",
     isNew: true,
     requiredTime: "5分～",
-  },
-  {
-    title: "暗号技術について学ぼう！",
-    coverImage: {
-      src: "https://source.unsplash.com/iar-afB0QQw/800x300",
-      alt: "暗号のイメージ",
-    },
-    description:
-      // prettier-ignore
-      <p>
-        暗号技術は、現代社会において欠かせないものとなっています。
-        ここでは、エニグマという第二次世界大戦で実際に使われていた暗号のしくみと、
-        現代の暗号技術の基礎である RSA 暗号を学びます。
-      </p>,
-    linkTo: "/crypto",
-    isNew: true,
-    targetAge: "一部は高校生以上におすすめ",
-    requiredTime: "15分～",
   },
 ];
 
