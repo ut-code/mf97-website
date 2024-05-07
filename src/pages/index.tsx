@@ -47,7 +47,9 @@ const activities = [
     description:
       // prettier-ignore
       <p>
-        説明本文 (3行程度)
+        大きなキャンバスに絵を描きましょう！やり方は簡単。セルを塗り潰すだけ！
+        みんなと同じキャンバスなので、他の人と協力するもよし。競うもよし。ただし、一つ塗ったら10秒待たなければいけません…  
+        思い通りの絵ができるように頑張りましょう！
       </p>,
     linkTo: "http://localhost:3000",
     isNew: true,
@@ -96,12 +98,13 @@ const activities = [
       src: "https://source.unsplash.com/kUqqaRjJuw0/800x300",
       alt: "タイピングゲームをするイメージ",
     },
-    description:
-    <p>
-      タイピングゲームで、一位を目指そう！
-      他の人と競い合いながら、タイピングの練習をすることができます。
-      他のタイピングゲームにはない独自の機能もあるかも……？
-    </p>,
+    description: (
+      <p>
+        タイピングゲームで、一位を目指そう！
+        他の人と競い合いながら、タイピングの練習をすることができます。
+        他のタイピングゲームにはない独自の機能もあるかも……？
+      </p>
+    ),
     linkTo: "https://typing.utcode.net/",
     targetAge: "どなたでも",
     isNew: false,
@@ -160,7 +163,9 @@ export default function Home(): JSX.Element {
                 </div>
                 <div className="card__body">
                   <h3>{activity.title}</h3>
-                  {activity.isNew && <h3 className="badge badge--success">NEW</h3>}
+                  {activity.isNew && (
+                    <h3 className="badge badge--success">NEW</h3>
+                  )}
                   <h3 className="badge badge--primary">{activity.targetAge}</h3>
                   <h3 className="badge badge--info">{activity.requiredTime}</h3>
                   {activity.description}
