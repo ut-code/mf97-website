@@ -47,7 +47,9 @@ const activities = [
     description:
       // prettier-ignore
       <p>
-        説明本文 (3行程度)
+        大きなキャンバスに絵を描きましょう！やり方は簡単。セルを塗り潰すだけ！
+        みんなと同じキャンバスなので、他の人と協力するもよし。競うもよし。ただし、一つ塗ったら10秒待たなければいけません…  
+        思い通りの絵ができるように頑張りましょう！
       </p>,
     linkTo: "http://localhost:3000",
     isNew: true,
@@ -96,13 +98,13 @@ const activities = [
       src: "https://source.unsplash.com/kUqqaRjJuw0/800x300",
       alt: "タイピングゲームをするイメージ",
     },
-    description: (
+    description:
+      // prettier-ignore
       <p>
         タイピングゲームで、一位を目指そう！
         他の人と競い合いながら、タイピングの練習をすることができます。
         他のタイピングゲームにはない独自の機能もあるかも……？
-      </p>
-    ),
+      </p>,
     linkTo: "https://typing.utcode.net/",
     targetAge: "どなたでも",
     isNew: false,
@@ -129,6 +131,7 @@ const activities = [
   },
 ];
 
+// prettier-ignore
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
