@@ -30,9 +30,9 @@ const config = {
       /** @type {import("@docusaurus/preset-classic").Options} */
       ({
         docs: {
-          sidebarPath: "./security/sidebars.js",
-          path: "security",
-          routeBasePath: "security",
+          sidebarPath: "./create-cpu/sidebars.js",
+          path: "create-cpu",
+          routeBasePath: "create-cpu",
         },
         blog: false,
         theme: {
@@ -42,9 +42,10 @@ const config = {
     ],
   ],
   plugins: [
+    /*
     [
       "@docusaurus/plugin-content-docs",
-      /** @type {import("@docusaurus/plugin-content-docs").Options} */
+      /** @type {import("@docusaurus/plugin-content-docs").Options} //
       ({
         id: "create-cpu",
         path: "create-cpu",
@@ -52,18 +53,7 @@ const config = {
         sidebarPath: "./create-cpu/sidebars.js",
       }),
     ],
-    [
-      "@docusaurus/plugin-content-docs",
-      /** @type {import("@docusaurus/plugin-content-docs").Options} */
-      ({
-        id: "crypto",
-        path: "crypto",
-        remarkPlugins: [remarkMath],
-        rehypePlugins: [rehypeKatex],
-        routeBasePath: "crypto",
-        sidebarPath: "./crypto/sidebars.js",
-      }),
-    ],
+    */
   ],
   stylesheets: [
     {
