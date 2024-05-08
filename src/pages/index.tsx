@@ -7,7 +7,7 @@ const activities = [
     // QR CODE
     title: "タイトル",
     coverImage: {
-      src: "https://source.unsplash.com/iar-afB0QQw/800x300",
+      src: "https://aomaterial.com/wp-content/uploads/2023/04/%E6%BA%96%E5%82%99%E4%B8%AD24-1024x576.png",
       alt: "イメージの代替テキスト",
     },
     description:
@@ -24,7 +24,7 @@ const activities = [
     // ART
     title: "タイトル",
     coverImage: {
-      src: "http://localhost:3000/icon",
+      src: "https://aomaterial.com/wp-content/uploads/2023/04/%E6%BA%96%E5%82%99%E4%B8%AD24-1024x576.png",
       alt: "イメージの代替テキスト",
     },
     description:
@@ -41,7 +41,7 @@ const activities = [
     // u/place
     title: "タイトル",
     coverImage: {
-      src: "http://localhost:3000/icon",
+      src: "https://aomaterial.com/wp-content/uploads/2023/04/%E6%BA%96%E5%82%99%E4%B8%AD24-1024x576.png",
       alt: "イメージの代替テキスト",
     },
     description:
