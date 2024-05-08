@@ -39,7 +39,7 @@ const activities = [
   },
   {
     // u/place
-    title: "タイトル",
+    title: "u/place",
     coverImage: {
       src: "https://aomaterial.com/wp-content/uploads/2023/04/%E6%BA%96%E5%82%99%E4%B8%AD24-1024x576.png",
       alt: "イメージの代替テキスト",
@@ -51,10 +51,10 @@ const activities = [
         みんなと同じキャンバスなので、他の人と協力するもよし。競うもよし。ただし、一つ塗ったら10秒待たなければいけません…  
         思い通りの絵ができるように頑張りましょう！
       </p>,
-    linkTo: "http://localhost:3000",
+    linkTo: "https://u-place.onrender.com/",
     isNew: true,
-    targetAge: "一部は高校生以上におすすめ",
-    requiredTime: "15分～",
+    targetAge: "どなたでも",
+    requiredTime: "10秒〜",
   },
   {
     title: "はじめてのプログラミング教室",
