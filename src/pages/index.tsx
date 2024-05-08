@@ -126,7 +126,7 @@ const activities = [
       </p>,
     linkTo: "/create-cpu",
     targetAge: "高校生以上におすすめ",
-    isNew: true,
+    isNew: false,
     requiredTime: "5分～",
   },
 ];
