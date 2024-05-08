@@ -33,6 +33,12 @@ This command generates static content into the `build` directory and can be serv
 
 ### Deployment
 
-for mf97, this repo is automatically deployed after updating the main branch.
+For mf97, this repo is automatically deployed after updating the main branch.
 
 https://mf97.utcode.net/
+
+### Reusing this repo
+
+When reusing this repo, you need to edit ./docusaurus.config.js and ./src/pages/index.tsx.
+
+Do NOT reuse the same remote repository, otherwise you will pollute previous generations.
