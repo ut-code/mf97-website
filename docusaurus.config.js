@@ -75,6 +75,11 @@ const config = {
         },
         items: [
           {
+            type: "html",
+            position: "right",
+            value: "<a href='/prix'><img src='/img/trophy.svg' id='trophy-icon' alt='Vote'/></a>",
+          },
+          {
             href: "https://utcode.net/",
             label: "ut.code();",
             position: "right",
