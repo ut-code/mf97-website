@@ -45,6 +45,9 @@
 }
 
 #trophy-icon {
-  min-width: 30px;
+  width: 30px;
   margin-top: 2px;
 }
+
+/* tooltip: hover and see explanation */
+@import "./tooltip.css";
