@@ -24,15 +24,15 @@ const activities = [
     // ART
     title: "CodeYourArt",
     coverImage: {
-      src: "https://aomaterial.com/wp-content/uploads/2023/04/%E6%BA%96%E5%82%99%E4%B8%AD24-1024x576.png",
-      alt: "イメージの代替テキスト",
+      src: "img/code_your_art.png",
+      alt: "ブロックプログラミングで図形を描く。",
     },
     description:
       // prettier-ignore
       <p>
         あなただけのアート作品を「プログラム」しよう！
         ブロックプログラミングで絵を描きながら、直感的にプログラムの基本構造に触れることができます。
-        作った作品はスマートフォンに保存してみんなに自慢しよう！
+        作った作品はスマートフォンに保存して友達や家族に自慢しよう！
       </p>,
     linkTo: "https://utcode-draw.onrender.com/",
     isNew: true,
