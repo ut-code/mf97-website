@@ -36,7 +36,7 @@ const activities = [
     linkTo: "https://utcode-draw.onrender.com/",
     isNew: true,
     targetAge: "どなたでも",
-    requiredTime: "5分～",
+    requiredTime: "15分～",
   },
   {
     // u/place
