@@ -4,21 +4,20 @@ import Heading from "@theme/Heading";
 
 const activities = [
   {
-    // QR CODE
-    title: "タイトル",
+    title: "QRコードを体験してみよう！",
     coverImage: {
-      src: "https://aomaterial.com/wp-content/uploads/2023/04/%E6%BA%96%E5%82%99%E4%B8%AD24-1024x576.png",
-      alt: "イメージの代替テキスト",
+      src: "img/qr_code.png",
+      alt: "QRコードのイメージ",
     },
     description:
       // prettier-ignore
       <p>
-        説明本文 (3行程度)
+        生活のあらゆる場面で見かけるQRコード。その仕組みを学びながら、自分の手でQRコードを作成しましょう！また、その過程でバーコードの仕組みについても学ぶことができます！(QRコードは株式会社デンソーウェーブの登録商標です)
       </p>,
-    linkTo: "http://localhost:3000",
+    linkTo: "https://ut-code.github.io/qrcode/",
     isNew: true,
-    targetAge: "一部は高校生以上におすすめ",
-    requiredTime: "15分～",
+    targetAge: "中学生以上におすすめ",
+    requiredTime: "30分～",
   },
   {
     // ART
