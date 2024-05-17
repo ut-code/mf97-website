@@ -43,7 +43,7 @@ const activities = [
     // u/place
     title: "u/place",
     coverImage: {
-      src: "https://aomaterial.com/wp-content/uploads/2023/04/%E6%BA%96%E5%82%99%E4%B8%AD24-1024x576.png",
+      src: "img/u_place.png",
       alt: "イメージの代替テキスト",
     },
     description:
