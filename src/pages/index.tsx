@@ -75,6 +75,7 @@ const activities = [
     isNew: false,
     requiredTime: "10分～",
   },
+  /* not working
   {
     title: "Code vs Code",
     coverImage: {
@@ -93,6 +94,7 @@ const activities = [
     isNew: false,
     requiredTime: "30分～",
   },
+  */
   /* not working
   {
     title: "タイピングゲーム",
