@@ -93,6 +93,7 @@ const activities = [
     isNew: false,
     requiredTime: "30分～",
   },
+  /* not working
   {
     title: "タイピングゲーム",
     coverImage: {
@@ -110,7 +111,7 @@ const activities = [
     targetAge: "どなたでも",
     isNew: false,
     requiredTime: "1分～",
-  },
+  }, */
   {
     title: "CreateCPU",
     coverImage: {
