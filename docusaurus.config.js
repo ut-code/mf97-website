@@ -77,7 +77,7 @@ const config = {
           {
             type: "html",
             position: "right",
-            value: `<a href="/prix" class="tooltip">
+            value: `<a href="/vote" class="tooltip">
               <img src="/img/trophy.svg" id="trophy-icon" alt="Vote" />
               <div class="tooltip-text">
                 この企画に投票する
