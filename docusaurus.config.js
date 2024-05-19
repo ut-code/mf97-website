@@ -8,8 +8,6 @@
 import { themes } from "prism-react-renderer";
 const lightCodeTheme = themes.github;
 const darkCodeTheme = themes.dracula;
-import remarkMath from "remark-math";
-import rehypeKatex from "rehype-katex";
 
 /** @type {import("@docusaurus/types").Config} */
 const config = {
