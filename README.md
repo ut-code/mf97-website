@@ -4,7 +4,8 @@ This website is built using [Docusaurus 3](https://docusaurus.io/), a modern sta
 
 ## IMPORTANT
 
-Do NOT forget to delete old projects that are not maintained, otherwise they will probably not run (especially if they use backend to share something).
+Do NOT forget to delete temporary projects since they are not maintained
+only inherit permanent projects.
 
 ## Dependencies
 

@@ -3,6 +3,7 @@ import Layout from "@theme/Layout";
 import Heading from "@theme/Heading";
 
 const activities = [
+  // QR Code: temporary project
   {
     title: "QRコードを体験してみよう！",
     coverImage: {
@@ -20,7 +21,7 @@ const activities = [
     requiredTime: "30分～",
   },
   {
-    // ART
+    // Art: (planned to be) permanent project
     title: "CodeYourArt",
     coverImage: {
       src: "img/code_your_art.png",
@@ -39,7 +40,7 @@ const activities = [
     requiredTime: "15分～",
   },
   {
-    // u/place
+    // u/place: (planned to be) permanent project
     title: "u/place",
     coverImage: {
       src: "img/u_place.png",
@@ -57,6 +58,7 @@ const activities = [
     targetAge: "どなたでも",
     requiredTime: "10秒〜",
   },
+  // permanent project:
   {
     title: "はじめてのプログラミング教室",
     coverImage: {
@@ -114,6 +116,7 @@ const activities = [
     isNew: false,
     requiredTime: "1分～",
   }, */
+  // CreateCPU: temporary project
   {
     title: "CreateCPU",
     coverImage: {
